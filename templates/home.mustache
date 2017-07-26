@@ -12,14 +12,11 @@
       <li>
         <img src="{{avatar}}">
         <p><a href="/users/{{id}}">{{name}}</a></p>
-        <span>{{job}}</span>
-        <span>{{company}}</span>
-        <span class="forhire">{{^job}}{{^company}}Available for hire{{/company}}{{/job}}</span>
+        {{#job}}<span>{{job}}, {{company}}</span>{{/job}}
+        {{^job}}<span class="forhire">Available for hire</span>{{/job}}
       </li>
       {{/users}}
     </ul>
-    <!-- <script type="text/javascript" src="index.js"> -->
-
     </script>
   </body>
 </html>

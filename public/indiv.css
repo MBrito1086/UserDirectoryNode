@@ -37,11 +37,18 @@ span:last-child {
 
 table {
   padding-top: 1em;
-  position: relative;
-  left: 5em;
 }
 
 th {
+  width: 71px;
+  position: relative;
+  left: 5em;
   padding-right: 1.75em;
   text-align: right;
+}
+
+td {
+  position: relative;
+  left: 5em;
+  padding-right: 1.75em;
 }
