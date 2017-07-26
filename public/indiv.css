@@ -1,0 +1,47 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10em;
+}
+
+
+img {
+  border: 2px solid rgb(235, 235, 226);
+  border-radius: 50%;
+  margin-right: 2em;
+}
+
+p {
+  font-size: 50px;
+  margin: .25em 0em .25em 0em;
+}
+
+span:last-child {
+  margin-top: .25em;
+}
+
+.pictit {
+  display: flex;
+  flex-direction: row;
+}
+
+.nameinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  padding-top: 1em;
+  position: relative;
+  left: 5em;
+}
+
+th {
+  padding-right: 1.75em;
+  text-align: right;
+}

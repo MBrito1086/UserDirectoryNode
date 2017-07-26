@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>User Directory</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>User Directory</h1>
+    <ul>
+      {{#users}}
+      <li>
+        <img src="{{avatar}}">
+        <p><a href="/users/{{id}}">{{name}}</a></p>
+        <span>{{job}}</span>
+        <span>{{company}}</span>
+        <span class="forhire">{{^job}}{{^company}}Available for hire{{/company}}{{/job}}</span>
+      </li>
+      {{/users}}
+    </ul>
+    <!-- <script type="text/javascript" src="index.js"> -->
+
+    </script>
+  </body>
+</html>

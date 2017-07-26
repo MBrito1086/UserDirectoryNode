@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>User Information</title>
+    <link rel="stylesheet" href="/indiv.css">
+  </head>
+  <body>
+    <section class="pictit">
+      <img src="{{avatar}}">
+      <div class="nameinfo">
+        <p>{{name}}</p>
+        <span>{{#address.city}}{{address.city}}, {{/address.city}} {{address.country}} | {{#job}}{{job}}, {{/job}}{{company}} {{^job}}Available for hire{{/job}}</span>
+        <span>{{email}} | {{phone}}</span>
+      </div>
+    </section>
+    <section>
+      <table>
+        <tr>
+          <th>{{#university}}Education{{/university}}</th>
+          <td>{{university}}</td>
+        </tr>
+        <tr>
+          <th>Skills</th>
+          <td>{{skills}}</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>

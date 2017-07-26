@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20%;
+  border: 2px solid gray;
+  margin: 1em;
+}
+
+li img {
+  height: auto;
+  width: 60%;
+}
+
+li p {
+  font-size: 30px;
+}
+
+li p a {
+  text-decoration: none;
+  color: #1b82c4;
+}
+
+li span {
+  font-size: 20px;
+}
+
+li span:last-child {
+  display: flex;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.forhire {
+  color: rgb(218, 98, 109);
+}
